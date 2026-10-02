@@ -1,6 +1,5 @@
 import { useGame } from "./GameContext";
 
-/** Displays score and other useful player information */
 export default function Scoreboard() {
   const { score, time, stop } = useGame();
   return (
